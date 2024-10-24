@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+
+.name-modal {
+  position: absolute;
+  width: 300px;
+  height: 330px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: white;
+  /* padding: 10px; */
+  text-align: center;
+  border-radius:10px;
+}
+
+.header{
+  text-align: center;
+  /* position: absolute; */
+  padding: 20px 0px;
+  margin: auto;
+  color: black;
+  background-color: rgb(234, 234, 234);
+  width: 100%;
+  border-radius:10px;
+}
+
+input {padding:10px}
+
+.name-submit {padding:10px; background-color: #1778f2; color:white; border:0px;}
+
+hr{border-top:#aaa; margin-top:30px; margin-bottom:30px}
