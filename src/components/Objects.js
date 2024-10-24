@@ -40,14 +40,14 @@ export const Node = ({ name, position, level, onClick, color }) => {
     <group position={position}>
       <Sparkles count={10} scale={0.6} size={2} speed={1} opacity={0.3} color='#43d9ff'/>
       <Sphere
-        args={[0.6 /(level+1), 32, 32]}
+        args={[0.45 /(level+1), 32, 32]}
         position={[0, 0, 0]}
         // onPointerOver={() => setHoveredNode(name)}
         // onPointerOut={() => setHoveredNode(null)}
         onClick={onClick}
       >
               <Sphere args={[0.1/(level+2),32,32]} position={[0,0,0]}>
-                <meshStandardMaterial emissive={"white"} emissiveIntensity={0.5} roughness={0} color={color} roughness={0}/>
+                <meshStandardMaterial emissive={"white"} emissiveIntensity={0.1 } roughness={0} color={color} roughness={0}/>
 
                 </Sphere>
 

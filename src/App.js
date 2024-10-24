@@ -81,6 +81,8 @@ const App = () => {
 
     // handlePlaySound(compound.name)
     playAddAudio();
+    
+    // setCameraPosition([x, y, z]);
   };
 
   const handlePlaySound = (word) => {
